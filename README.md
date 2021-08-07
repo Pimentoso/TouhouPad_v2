@@ -23,15 +23,16 @@ This is a newer version which uses a proper circuit board; for the old hand-wire
 ![Top](https://raw.githubusercontent.com/Pimentoso/TouhouPad_v2/master/images/img1.jpg)
 
 ![Bottom](https://raw.githubusercontent.com/Pimentoso/TouhouPad_v2/master/images/img2.jpg)
+(the circuit board in the picture is the prototype version)
 
 ## Building the pad
 
 You will need
 - Touhoupad circuit board (see above)
 - 3d-printed enclosure
-- Arduino pro micro board
-- 10x mx-style switches (gateron yellow are good)
-- 10x keycaps
+- Arduino pro micro board -> https://www.aliexpress.com/item/32888212119.html (the black one)
+- 10x mx-style switches -> https://www.aliexpress.com/item/32899833333.html (gateron red or yellow are good for gaming)
+- 10x keycaps -> https://www.aliexpress.com/item/32842379355.html (or just scavenge from an old mechanical keyboard)
 - (optional) 4 silicone adhesive dots/feet
 - (optional) a short RGB strip (ws2812b LEDs)
 
