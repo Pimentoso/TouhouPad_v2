@@ -23,6 +23,7 @@ This is a newer version which uses a proper circuit board; for the old hand-wire
 ![Top](https://raw.githubusercontent.com/Pimentoso/TouhouPad_v2/master/images/img1.jpg)
 
 ![Bottom](https://raw.githubusercontent.com/Pimentoso/TouhouPad_v2/master/images/img2.jpg)
+
 (the circuit board in the picture is the prototype version)
 
 ## Building the pad
@@ -49,4 +50,5 @@ Works better if you print the bottom part of the enclosure with transparent fila
 ## Flashing the firmware
 
 - Method 1: flash `firmware/pimentoso_touhoupad_default.hex` using QMK Toolbox.
-- Methos 2: flash it directly using qmk firmware: `make pimentoso/touhoupad:default:flash` (not available yet)
+- Method 2: flash it directly using qmk firmware: `make pimentoso/touhoupad:default:flash`
+- To enter bootloader mode: the bottom of the pad is completely exposed so you have access to the Arduino Pro micro. Just short together the RST and GND pins using a metal object to access bootloader mode.
